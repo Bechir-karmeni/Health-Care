@@ -14,11 +14,74 @@
 
 
 
+>𝗔𝗹𝗹 𝗗𝗶𝘀𝗲𝗮𝘀𝗲 𝗗𝗲𝘁𝗲𝗰𝘁𝗶𝗼𝗻𝘀: 
+
+
+
+𝑪𝒐𝒗𝒊𝒅-19 𝑫𝒆𝒕𝒆𝒄𝒕𝒊𝒐𝒏:
+
+       - Used custom-made CNN architecture for this detection.
+
+       - The accuracy achieved was around 93%
+
+
+
+𝑩𝒓𝒂𝒊𝒏 𝑻𝒖𝒎𝒐𝒖𝒓 𝒅𝒆𝒕𝒆𝒄𝒕𝒊𝒐𝒏:
+
+        - Used VGG-16 for feature extraction.
+
+        -The accuracy achieved was around 99%(Just Tested on 10 Images)
+
+         -Used custom-made CNN ahead of CNN.
+
+
+
+𝑩𝒓𝒆𝒂𝒔𝒕 𝑪𝒂𝒏𝒄𝒆𝒓 𝑫𝒆𝒕𝒆𝒄𝒕𝒊𝒐𝒏:
+
+         -Used Random Forest for this use case.
+
+         -The accuracy achieved was around 91%
+
+
+
+𝑨𝒍𝒛𝒉𝒆𝒊𝒎𝒆𝒓 𝑫𝒆𝒕𝒆𝒄𝒕𝒊𝒐𝒏:
+
+         -Trained CNN architecture for this use case.
+
+         -The accuracy achieved was around 73%
+
+
+
+𝑫𝒊𝒂𝒃𝒆𝒕𝒆𝒔 𝒅𝒆𝒕𝒆𝒄𝒕𝒊𝒐𝒏:
+
+        -Used Random Forest for this use case.
+
+        -The accuracy achieved was around 66%
+
+
+
+𝑷𝒏𝒆𝒖𝒎𝒐𝒏𝒊𝒂 𝑫𝒆𝒕𝒆𝒄𝒕𝒊𝒐𝒏:
+
+        -Used custom CNN architecture for this use case.
+
+        -The accuracy achieved was around 83%
+
+
+
+𝑯𝒆𝒂𝒓𝒕 𝑫𝒊𝒔𝒆𝒂𝒔𝒆 𝑫𝒆𝒕𝒆𝒄𝒕𝒊𝒐𝒏:
+
+       -Used XGBoost for this use case.
+
+       -The accuracy achieved was around 86%
+
+
+
+
+
 **********************************************************************************
 
 # Getting Started
 
-# Launching the application:
 
 1)conda create -n Health&Care python=3.9
 
@@ -38,5 +101,7 @@
 4)flask run
 
  
+# Demo Link 
+https://bechir-karmeni.github.io/Health-Care/
 
 
