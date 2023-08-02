@@ -1,0 +1,14 @@
+<style>
+    .headstyle {
+        color: rgb(255, 255, 255);
+        font-variant: petite-caps;
+        background-color: rgb(0, 0, 0, 0.8);
+        margin-bottom: 0px
+    }
+
+    .divstyle {
+        border-radius: 10px 10px 10px 10px;
+        margin-left: 1px;
+        margin-right: 1px
+    }
+</style>
